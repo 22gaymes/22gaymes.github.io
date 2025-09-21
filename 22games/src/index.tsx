@@ -3,13 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'rsuite/dist/rsuite.min.css';
+import { CustomProvider } from 'rsuite';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <CustomProvider theme={'dark'}>
+      <App/>
+    </CustomProvider>
   </React.StrictMode>
 );
 
