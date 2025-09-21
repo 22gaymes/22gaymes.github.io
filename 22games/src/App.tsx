@@ -47,12 +47,18 @@ function App() {
         <div className='App-footer'>
           <Grid fluid >
             <Col className="footer-item">
-              <Mail/>
-              <p id="Contact">contact@22games.dk</p>
-              <Phone/>
-              <p>+45 22258003</p>
-              <MapPin/>
-              <p> Aarhus, Denmark</p>
+              <div className='footer-group'>
+                <Mail/>
+                <p id="Contact">contact@22games.dk</p>
+              </div>
+              <div className='footer-group'>
+                <Phone/>
+                <p>+45 22258003</p>
+              </div>
+              <div className='footer-group'>
+                <MapPin/>
+                <p> Aarhus, Denmark</p>
+              </div>
             </Col>
           </Grid>
         </div>

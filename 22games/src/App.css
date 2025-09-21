@@ -11,8 +11,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  padding: 0;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 0 10px;
 
   .App-nav-bar {
     color: #ee4036;
@@ -27,7 +28,6 @@
   }
   
   .App-logo {
-    
     height: 60px;
     max-height: 100px;
   }
@@ -90,34 +90,42 @@
   justify-content: center;
   align-items: center;
   padding: 10px 0;
-  flex-wrap: wrap;
 
   p {
     color: #8d99ae;
-    margin: 0 10px;
-    font-size: clamp(0.9rem, 1vw, 1rem);
+    margin: 0;
+    white-space: nowrap;
+    font-size: 1rem;
   }
 
   svg {
     color: #ee4036;
     height: 2rem;
     width: auto;
+    flex-shrink: 0;
   }
 
   .footer-item {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
+    gap: 40px;
+    flex-wrap: nowrap;
+  }
+
+  .footer-group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
   }
 }
 
 @media (max-width: 600px) {
   .App-header {
-    flex-direction: column;
+    padding: 0 5px;
+
     .App-logo {
-      margin-bottom: 10px;
+      height: 50px;
     }
     .App-nav-bar button {
       font-size: 0.9rem;
@@ -128,5 +136,19 @@
   .App-content {
     gap: 30px;
   }
+
+  .footer-item {
+    gap: 20px;
+
+    svg {
+      height: 1.5rem;
+    }
+
+    p {
+      font-size: 0.85rem;
+    }
+
+  }
+
 }
 
