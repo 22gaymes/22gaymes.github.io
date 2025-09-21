@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.9ec83271.css",
+    "main.css": "/static/css/main.70c89299.css",
     "main.js": "/static/js/main.b256625d.js",
     "static/js/453.044e88e2.chunk.js": "/static/js/453.044e88e2.chunk.js",
     "static/media/22gameslogored.svg": "/static/media/22gameslogored.a8cb537470572bce18c795c421f2aaa3.svg",
     "index.html": "/index.html",
-    "main.9ec83271.css.map": "/static/css/main.9ec83271.css.map",
+    "main.70c89299.css.map": "/static/css/main.70c89299.css.map",
     "main.b256625d.js.map": "/static/js/main.b256625d.js.map",
     "453.044e88e2.chunk.js.map": "/static/js/453.044e88e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ec83271.css",
+    "static/css/main.70c89299.css",
     "static/js/main.b256625d.js"
   ]
 }
