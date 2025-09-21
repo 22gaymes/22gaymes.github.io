@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.b065b470.css",
-    "main.js": "/static/js/main.f2674ff7.js",
-    "static/js/453.6d3eda7a.chunk.js": "/static/js/453.6d3eda7a.chunk.js",
+    "main.css": "/static/css/main.9ec83271.css",
+    "main.js": "/static/js/main.b256625d.js",
+    "static/js/453.044e88e2.chunk.js": "/static/js/453.044e88e2.chunk.js",
     "static/media/22gameslogored.svg": "/static/media/22gameslogored.a8cb537470572bce18c795c421f2aaa3.svg",
     "index.html": "/index.html",
-    "main.b065b470.css.map": "/static/css/main.b065b470.css.map",
-    "main.f2674ff7.js.map": "/static/js/main.f2674ff7.js.map",
-    "453.6d3eda7a.chunk.js.map": "/static/js/453.6d3eda7a.chunk.js.map"
+    "main.9ec83271.css.map": "/static/css/main.9ec83271.css.map",
+    "main.b256625d.js.map": "/static/js/main.b256625d.js.map",
+    "453.044e88e2.chunk.js.map": "/static/js/453.044e88e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b065b470.css",
-    "static/js/main.f2674ff7.js"
+    "static/css/main.9ec83271.css",
+    "static/js/main.b256625d.js"
   ]
 }
