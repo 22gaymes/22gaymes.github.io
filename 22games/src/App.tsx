@@ -16,13 +16,13 @@ function App() {
     <Container className="App-container">
       <Header className='App-header'>
         <img className="App-logo" src={logo} alt="22Games"/>
-        <Navbar className='App-nav-bar' appearance='subtle'>
+        {/*<Navbar className='App-nav-bar' appearance='subtle'>
           <Nav>
             <Nav.Item as="button" onClick={() => scrollToSection("Games")}>Games</Nav.Item>
             <Nav.Item as="button" onClick={() => scrollToSection("AboutUs")}>About Us</Nav.Item>
             <Nav.Item as="button" onClick={() => scrollToSection("Contact")}>Contact</Nav.Item>
           </Nav>
-        </Navbar>
+        </Navbar>*/}
       </Header>
       
       <Content className="App-content">
@@ -30,15 +30,22 @@ function App() {
           <h2>Game coming soon</h2>
           <iframe
             className="w-full h-full rounded-2xl shadow-lg"
-            src="https://youtu.be/K6N4hK8RfsM?si=7hsjM5idYx4Hd3v3"
+            src="https://www.youtube.com/embed/4Na0ozWdr70"
             title="Game Trailer"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
           />
         </div>
         <div id="AboutUs" className='App-about-us-section'>
           <Card className='custom-card' size="lg" shaded>
             <Card.Header as="h2">About Us</Card.Header>
-            <Card.Body>We are a developer group of three.</Card.Body>
+            <Card.Body>
+              22Games is a game studio based in Aarhus, Denmark. It consists of three developers, 
+              all software engineers, with previous experience in developing and publishing games. 
+              Among these are titles like CROPS! and Oaken Tower, both released on Steam. Before making games, 
+              the team worked in the industry as a graphic designer, software architect, and front-end developer, 
+              building bank infrastructure and applications.
+            </Card.Body>
           </Card>
         </div>
       </Content>
